@@ -452,9 +452,9 @@ def logsdir_iridium_analysis(logsdir):
         the summary numbers for Iridium calls
     analysis_df : pandas dataframe
         analysis results table, with a line for each log file and a boolean
-        table for disconnection (True if intended, False if dropped),
-        in-mission, drops during data transfers, and category of data transfer
-        drop (flight, science, or other)
+        table for disconnection type (True if intended, False if dropped),
+        in-mission or not, drops during data transfers, and category of data 
+        transfer drop (flight, science, or other)
 
     """
     logfile_pat = os.path.join(logsdir, '*.log')

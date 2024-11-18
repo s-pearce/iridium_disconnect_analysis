@@ -11,8 +11,8 @@ how that information is accessed in the scripts, changing the regular
 expressions, and editing how deployment identification is done for your glider 
 operations.
 
-So if you want to use this analysis, make a copy of this module and edit to
-use with your system.
+So if you want to use this for a similar analysis, make a copy of this module 
+and edit to use with your system.
 
 Created: Oct 7 2024
 @author: Stuart Pearce
@@ -35,12 +35,12 @@ logger = logging.getLogger("iridium_analysis")
 
 
 #%% OOI-CE unique setup
+#------------------------------------------------------------------------------
 # This section, the directories, the regex, and metadata file load are unique 
-# to OOI-CE's system.
+# to OOI-CE's system and may or may not be relevant to your analysis
 
-
-# glider_utils is a module unique to OOI-CE and reads from a google doc to 
-# get deployment start and end times.  Adjust as needed for your group.
+# glider_utils.google is a module unique to OOI-CE and reads from a google doc
+# to get deployment start and end times.  Adjust as needed for your group.
 from glider_utils import google
 
 # Directory variables unique to OOI-CE
@@ -72,7 +72,7 @@ ooice_f_and_gtypes_file = os.path.join(
 
 with open(ooice_f_and_gtypes_file) as fid:
     fin_and_gtypes = json.load(fid)
-
+#------------------------------------------------------------------------------
 
 #%%% Deployment level results write helper functions
 
