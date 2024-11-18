@@ -33,6 +33,14 @@ I made histograms of in-mission dropped call rates for G2 gliders with digifin
 model tails, G2 gliders with Radome model tails, and G3 gliders (that also 
 feature the same Radome model tail). 
 
+There are subfunctions in `iridium_disconnect_analysis.py` that primarily are
+helper functions, but are also created to be used independently if desired,
+such as analyzing a single log file.
+
+The `log_disconnect_times.py` module is not used in the analysis, but are 
+included as possible additional functions of interest and are 2 primary methods
+of determining the time an Iridium call was disconnected.
+
 If you end up using this code to see the difference between G2 gliders and G3
 gliders, please let me know the general results, I would be interested to hear
 them.

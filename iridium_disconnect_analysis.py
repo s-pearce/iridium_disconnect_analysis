@@ -16,7 +16,7 @@ analyzed is returned.
 Created: Sep 24 2024
 @author: Stuart Pearce
 """
-
+__version__ = "1.0"
 
 # %% imports
 import glob

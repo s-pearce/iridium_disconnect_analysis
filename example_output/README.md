@@ -11,7 +11,7 @@ days.
 
 The output are:
  1. 1012-3.csv, created from the pandas dataframe.to_csv method on the results 
-    dataframe created from `logsdir_iridium_analysis. It is a boolean table of 
+    dataframe created from `logsdir_iridium_analysis`. It is a boolean table of 
     results for each glider terminal log file.  See the docstring for 
     `logsdir_iridium_analysis` or `log_disconnect_info` for more details.
  2. 1012-3.json, a JSON file created from the summarization results dictionary 
