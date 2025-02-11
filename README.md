@@ -3,7 +3,7 @@ Python module to analyze Slocum Glider Iridium call logs
 
 This module is intended to quantify Slocum Glider Iridium call disconnections 
 by analyzing the glider terminal logs from a Dockserver or SFMC server 
-(e.g. "/var/opt/gmc/gliders/<glider name>/logs/") to see which calls are 
+(e.g. "/var/opt/gmc/gliders/\<glider name\>/logs/") to see which calls are 
 disconnected intentionally by either a user or by glider functions or are 
 unintentional dropped connections.
 
