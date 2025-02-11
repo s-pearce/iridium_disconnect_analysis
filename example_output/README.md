@@ -3,7 +3,7 @@
 
 This example_output directory holds the example output from a run of the 
 `ooice_iridium_analysis.py` module for 1 G3 glider deployment (glider ce_1012 
-deployment 4, out of 176 deployments) and demonstrates how additional metadata 
+deployment 3, out of 176 deployments as of Oct. 2024) and demonstrates how additional metadata 
 was included to aid in the analysis. The extra fields included for the OOICE 
 analysis are, glider serial number, deployment number, launch datetime, 
 recovery datetime, fin type used, glider model/type, and deployment length in 
